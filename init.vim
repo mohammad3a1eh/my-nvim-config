@@ -6,6 +6,7 @@ Plug 'ap/vim-css-color'
 Plug 'rafi/awesome-vim-colorschemes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim'
+Plug 'sansyrox/vim-python-virtualenv'
 call plug#end()
 
 set number
