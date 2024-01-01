@@ -21,4 +21,15 @@ set encoding=UTF-8
 
 :colorscheme nord
 
+syntax on
+hi Visual term=reverse cterm=reverse guibg=Grey
+
 nnoremap <C-q> :NERDTreeToggle<CR>
+nnoremap <C-/> :PlugInstall<CR>
+noremap <silent> <C-S> :update<CR>
+vnoremap <silent> <C-S> <C-C>:update<CR>
+inoremap <silent> <C-S> <C-O>:update<CR>
+
+
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
