@@ -33,3 +33,13 @@ inoremap <silent> <C-S> <C-O>:update<CR>
 
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+
+nnoremap <A-Left>  <C-w>h
+nnoremap <A-Down>  <C-w>j
+nnoremap <A-Up>    <C-w>k
+nnoremap <A-Right> <C-w>l
+
+nnoremap <C-n> :tabnew<CR>
+nnoremap <C-Right> :tabnext<CR>
+nnoremap <C-Left>  :tabprevious<CR>
