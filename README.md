@@ -1,7 +1,7 @@
 ## Introduction  
 This Vim configuration is tailored for efficient Python development. It includes plugins for file navigation, commenting, code completion, virtual environment management, and syntax highlighting, all integrated with `coc.nvim` for powerful language features.
 
----
+![Image](image.png)
 
 ## Plugins Used
 
